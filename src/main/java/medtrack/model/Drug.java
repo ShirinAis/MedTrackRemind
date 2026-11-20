@@ -37,6 +37,7 @@ public class Drug {
     public static class Builder {
         private String name;
         private String form = "таблетка";
+        private double doseMg = 0;
 
         public Builder name(String name) { this.name = name; return this; }
         public Builder form(String form) { this.form = form; return this; }
